@@ -1,0 +1,68 @@
+/* 基本重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #edecec;
+  color: #333;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.projects-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  margin-top: 2rem;
+}
